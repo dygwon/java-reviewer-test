@@ -18,7 +18,9 @@ import com.amazonaws.services.lambda.runtime.RequestHandler;
  */
 public class DynamoDBScan implements RequestHandler<Map<String,String>, String> {
 
-    static String tableName = "<FMI1>";
+    static String tableName = "CodeGuru-MusicCollection";
+    private AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().withRegion("us-east-1").build();
+    private DynamoDB dynamoDB = new DynamoDB(client);
 
     @Override
     public String handleRequest(Map<String,String> event, Context context)
@@ -26,11 +28,8 @@ public class DynamoDBScan implements RequestHandler<Map<String,String>, String> 
         return findAllItems();
     }
 
-    private static String findAllItems() {
-        AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().build();
-        DynamoDB dynamoDB = new DynamoDB(client);
+    private String findAllItems() {
         Table table = dynamoDB.getTable(tableName);
-
         ItemCollection<ScanOutcome> items = table.scan();
 
         Iterator<Item> iterator = items.iterator();

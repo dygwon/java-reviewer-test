@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2baeb770-1100-452e-968e-6b527fb4b64e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeGuru/src/main/java/DynamoDBScan.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeGuru/src/main/java/S3Upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGuru/src/main/java/S3Upload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGuru/src/main/java/DynamoDBScan.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGuru/src/main/java/DynamoDBScan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,11 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CodeGuru/src/main/java" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="S3Upload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S3Upload" />
