@@ -29,7 +29,7 @@ public class S3Upload {
         System.out.println("Done!");
     }
 
-    private static String readFileContents() throws IOException {
+    private static String readFileContents() {
         BufferedReader reader = null;
         String fileContents = "";
         try {
@@ -45,8 +45,14 @@ public class S3Upload {
         } catch (IOException e) {
             System.out.println("Something went wrong");
         } finally {
-            if (reader != null)
-                reader.close();
+            if (reader != null) {
+                try {
+                    reader.close();
+                } catch (IOException e) {
+                    System.out.printf("Something went wrong");
+                }
+            }
+
         }
 
         return fileContents;

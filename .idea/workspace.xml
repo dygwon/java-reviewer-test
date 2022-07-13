@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2baeb770-1100-452e-968e-6b527fb4b64e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeGuru/target/classes/DynamoDBScanSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGuru/target/classes/DynamoDBScanSolution.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeGuru/target/classes/GuessingGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGuru/target/classes/GuessingGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeGuru/target/classes/S3Upload.class" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGuru/target/classes/S3Upload.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGuru/src/main/java/DynamoDBScan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeGuru/src/main/java/S3Upload.java" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGuru/src/main/java/S3Upload.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="S3Upload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="S3Upload" />
@@ -71,7 +67,7 @@
       <workItem from="1657676266441" duration="61000" />
       <workItem from="1657676385450" duration="1441000" />
       <workItem from="1657715808157" duration="114000" />
-      <workItem from="1657715937552" duration="3248000" />
+      <workItem from="1657715937552" duration="3574000" />
     </task>
     <servers />
   </component>
