@@ -5,9 +5,8 @@ public class GuessingGame {
         int computerNumber = (int) (Math.random()*100 + 1);
         System.out.println("A random number has been generated...");
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a guess between 1 and 100");
-        int userAnswer = scanner.nextInt();
 
+        int userAnswer;
         for (int i = 0; i < 3; i++) {
             System.out.println("Enter a guess between 1 and 100");
             userAnswer = scanner.nextInt();
