@@ -14,7 +14,7 @@ import java.io.*;
 public class S3Upload {
     public static void main(String[] args) {
         String bucket_name = "dyg-392-codeguru";
-        String file_path = "/";
+        String file_path = "/Users/dgwon/programming-projects/java-reviewer-test/TEST.md";
         String key_name = "lab3";
         String fileContents = readFileContents();
 
@@ -29,12 +29,12 @@ public class S3Upload {
         System.out.println("Done!");
     }
 
-    private static String readFileContents() {
+    private static String readFileContents() throws IOException {
         BufferedReader reader = null;
         String fileContents = "";
         try {
             reader = new BufferedReader(new FileReader(
-                    "C:\\<FMI2>"));
+                    "/Users/dgwon/programming-projects/java-reviewer-test/TEST.md"));
 
             while (true) {
                 fileContents += reader.readLine();
@@ -44,6 +44,9 @@ public class S3Upload {
             }
         } catch (IOException e) {
             System.out.println("Something went wrong");
+        } finally {
+            if (reader != null)
+                reader.close();
         }
 
         return fileContents;
