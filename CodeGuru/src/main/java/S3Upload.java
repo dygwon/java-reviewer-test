@@ -39,6 +39,7 @@ public class S3Upload {
             while (true) {
                 fileContents += reader.readLine();
                 if (fileContents == null || fileContents.equals("")) {
+                    reader.close();
                     break;
                 }
             }
